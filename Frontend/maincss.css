@@ -1,0 +1,257 @@
+.prog{
+  width: 100%;
+
+  border: 5px solid #9B51E0;
+}
+#header{
+width: 100%;
+ position: relative;
+ margin-top: 30px;
+ text-align: center;
+}
+.logo{
+  position: relative;
+  left: 0px;
+  top: -5px;
+  width: 50px;
+  margin-right: 740px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 3px solid #FFC740;
+  box-sizing: border-box;
+}
+.super-logo{
+  position: relative;
+  width: 143px;
+  height: 48px;
+  left: 25px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.head-list{
+  display: inline-block;
+}
+.search{
+  position: relative;
+  width: 201px;
+  height: 33px;
+  right: 20px;
+  top:10px;
+  background: #FFFFFF;
+  border: 1px solid #6D3D99;
+}
+.super-logo p{
+  display: inline;
+  white-space: nowrap;
+
+}
+.go{
+  position: relative;
+  width: 44px;
+  height: 33px;
+  bottom: 14px;
+  left: 158px;
+  background: #9B51E0;
+}
+.go p{
+  padding-top: 8px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+}
+.main-menu{
+  position: relative;
+  right: 40px;
+}
+.main-menu ul li{
+  display: inline-block;
+  padding-left: 40px;
+}
+.main-menu ul li:first-child{
+  padding: 0;
+  background: #FFC740;
+  color: white;
+  height: 47px;
+  width: 123px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+.main-menu ul li:first-child p{
+  padding-bottom: 10px;
+}
+.banner{
+  position: relative;
+  width: 100%;
+}
+.banner img{
+  position: absolute;
+  width: 980px;
+  height: 400px;
+  margin-left: 448px;
+  filter: brightness(55%);
+  text-align: center;
+  bottom: -3px;
+
+}
+
+.bannerTitle{
+position: relative;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+color: #FFC740;
+margin-left: 500px;
+bottom: 30px;
+}
+.bannerText{
+  position: relative;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+left: 505px;
+bottom: 80px;
+}
+.bannerButton{
+  position: relative;
+  background: #6D3D99;
+  width: 125px;
+height: 34px;
+color: white;
+left: 505px;
+bottom: 80px;
+text-align: center;
+}
+.bannerButton p{
+  padding-top: 8px;
+}
+.content{
+  position: relative;
+  width: auto;
+  height: 500px;
+}
+.contblock{
+  width: 470px;
+  height: 190px;
+  display: inline-block;
+}
+.contblock1{
+  width: 470px;
+  height: 190px;
+  display: inline-block;
+}
+.block1{
+  margin-left: 460px;
+}
+.block3{
+  margin-left: 440px;
+}
+.block2{
+  margin-left: 20px;
+}
+.block4{
+  margin-left: 45px;
+}
+.polosa1{
+  background: #9B51E0;
+  width: 470px;
+  height: 16px;
+  margin-top: 30px;
+}
+.polosa2{
+background: #FFC740;
+width: 470px;
+height: 16px;
+margin-top: 30px;
+}
+.wordsOnPolosa{
+  margin-left: 12px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+background: white;
+color: #000000;
+padding: 5px;
+}
+
+/*.cart-text1.cart-text2{
+  width: 400px;
+  height: 230px;
+}*/
+.ava {
+  height: 141px;
+  width: 156px;
+  float: left;
+  border: 2px solid #FFC740;
+  box-sizing: border-box;
+  margin-right: 10px;
+  padding: 2px;
+}
+.cart-text1 p{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+color: #000000;
+margin-left: 100px;
+width: 100%;
+}
+.cart-text2 p{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+color: #000000;
+margin-left: 100px;
+width: 100%;
+}
+.cart-text3 p{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+color: #000000;
+margin-left: 100px;
+width: 100%;
+}
+.cart-text3 p{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+color: #000000;
+margin-left: 100px;
+width: 100%;
+}
+.cart-text1 p:last-child{
+  text-decoration: underline;
+}
+.cart-text3 p:last-child{
+  text-decoration: underline;
+}
