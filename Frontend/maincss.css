@@ -1,6 +1,5 @@
 .prog{
-  width: 100%;
-
+  width: 99%;
   border: 5px solid #9B51E0;
 }
 #header{
@@ -89,31 +88,37 @@ color: #FFFFFF;
 .main-menu ul li:first-child p{
   padding-bottom: 10px;
 }
-.banner{
+#content{
   position: relative;
   width: 100%;
+  height: auto;
+  bottom: 50px;
 }
-.banner img{
-  position: absolute;
-  width: 980px;
+.banner{
+  position: relative;
   height: 400px;
-  margin-left: 448px;
+  width: 980px;
+  margin: 0 auto;
+  right: 5px;
+}
+.banner::before{
+  content: "";
+  position: absolute;
+  width: 100%; height: 100%;
+  background:  url('img/alps.jpg') no-repeat 5% 85%;
   filter: brightness(55%);
-  text-align: center;
-  bottom: -3px;
-
 }
 
-.bannerTitle{
-position: relative;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 64px;
-line-height: 75px;
-color: #FFC740;
-margin-left: 500px;
-bottom: 30px;
+.bannerTitle p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFC740;
+  filter: brightness(100%);
+  margin-left: 44px;
+  padding-top: 10px;
 }
 .bannerText{
   position: relative;
@@ -122,10 +127,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 16px;
-
 color: #FFFFFF;
-left: 505px;
-bottom: 80px;
+margin-left: 44px;
+margin-top: -50px;
 }
 .bannerButton{
   position: relative;
@@ -133,56 +137,41 @@ bottom: 80px;
   width: 125px;
 height: 34px;
 color: white;
-left: 505px;
-bottom: 80px;
+margin-left: 44px;
 text-align: center;
 }
 .bannerButton p{
   padding-top: 8px;
 }
-.content{
+.contblock, .contblock1, .contblock2{
   position: relative;
-  width: auto;
-  height: 500px;
-}
-.contblock{
-  width: 470px;
+  width: 100%;
   height: 190px;
-  display: inline-block;
-}
-.contblock1{
-  width: 470px;
-  height: 190px;
-  display: inline-block;
+  text-align: center;
 }
 .contblock2{
-  width: 306px;
-  height: 190px;
+  height: 280px;
+}
+.block1{
+  width: 470px;
   display: inline-block;
 }
-.block1, .block5{
-  margin-left: 460px;
+.block1:last-child, .block2:last-child, .block3:nth-child(2), .block3:nth-child(3){
+  margin-left: 20px;
 }
 .block3{
-  margin-left: 440px;
+  width: 305px;
+  display: inline-block;
 }
-.block2{
-  margin-left: 20px;
+.block3{
+  vertical-align: top;
 }
-.block4{
-  margin-left: 40px;
 
+.block2{
+  width: 470px;
+  display: inline-block;
 }
-.block6{
-  margin-left: 20px;
-}
-.block5{
-  vertical-align: top;
-}
-.block7{
-  margin-left: 20px;
-  vertical-align: top;
-}
+
 .polosa1{
   background: #9B51E0;
   width: 470px;
@@ -205,7 +194,6 @@ margin-top: 30px;
   background: #9B51E0;
 }
 .wordsOnPolosa{
-  margin-left: 12px;
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -215,6 +203,9 @@ line-height: 16px;
 background: white;
 color: #000000;
 padding: 5px;
+text-align: left;
+width: auto;
+margin-right: 260px;
 }
 
 
@@ -310,22 +301,20 @@ margin-left: 100px;
   display: block;
 }
 .clients{
+
 width: 970px;
 height: 16px;
 background: #9B51E0;
-margin-left: 460px;
-margin-top: 10px;
+margin: 0 auto;
 }
 .client{
   margin-top: 20px;
   height: 80px;
   padding-left: 40px;
 }
-.client:first-child{
-  margin-left: 485px;
-}
+
 .footer{
-  width: 100%;
+  width: 99%;
   height: 115px;
   background: #6D3D99;
 }
@@ -342,4 +331,17 @@ vertical-align: middle;
 }
 .Copy p{
   padding-top: 49px;
+}
+.block3 .wordsOnPolosa{
+  margin-right: 170px;
+}
+.clients .wordsOnPolosa{
+  margin-left: 20px;
+}
+.OurClients{
+  margin: 0 auto;
+  text-align: center;
+}
+.client{
+  padding-right: 5px;
 }
