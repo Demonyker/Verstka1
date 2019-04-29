@@ -155,7 +155,12 @@ text-align: center;
   height: 190px;
   display: inline-block;
 }
-.block1{
+.contblock2{
+  width: 306px;
+  height: 190px;
+  display: inline-block;
+}
+.block1, .block5{
   margin-left: 460px;
 }
 .block3{
@@ -165,7 +170,18 @@ text-align: center;
   margin-left: 20px;
 }
 .block4{
-  margin-left: 45px;
+  margin-left: 40px;
+
+}
+.block6{
+  margin-left: 20px;
+}
+.block5{
+  vertical-align: top;
+}
+.block7{
+  margin-left: 20px;
+  vertical-align: top;
 }
 .polosa1{
   background: #9B51E0;
@@ -178,6 +194,15 @@ background: #FFC740;
 width: 470px;
 height: 16px;
 margin-top: 30px;
+}
+.polosa3, .polosa4{
+background: #FFC740;
+width: inherit;
+height: 16px;
+margin-top: 30px;
+}
+.polosa4{
+  background: #9B51E0;
 }
 .wordsOnPolosa{
   margin-left: 12px;
@@ -192,10 +217,7 @@ color: #000000;
 padding: 5px;
 }
 
-/*.cart-text1.cart-text2{
-  width: 400px;
-  height: 230px;
-}*/
+
 .ava {
   height: 141px;
   width: 156px;
@@ -213,8 +235,6 @@ font-size: 12px;
 line-height: 14px;
 text-align: justify;
 color: #000000;
-margin-left: 100px;
-width: 100%;
 }
 .cart-text2 p{
   font-family: Roboto;
@@ -224,8 +244,6 @@ font-size: 12px;
 line-height: 14px;
 text-align: justify;
 color: #000000;
-margin-left: 100px;
-width: 100%;
 }
 .cart-text3 p{
   font-family: Roboto;
@@ -235,8 +253,6 @@ font-size: 12px;
 line-height: 14px;
 text-align: justify;
 color: #000000;
-margin-left: 100px;
-width: 100%;
 }
 .cart-text3 p{
   font-family: Roboto;
@@ -246,12 +262,84 @@ font-size: 12px;
 line-height: 14px;
 text-align: justify;
 color: #000000;
-margin-left: 100px;
 width: 100%;
 }
-.cart-text1 p:last-child{
+
+.cart-text4 p{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+color: #000000;
+}
+.cart-text4{
+  width: inherit;
+}
+
+.cart-text3 p:last-child, .cart-text4 p:last-child, .cart-text1 p:last-child{
   text-decoration: underline;
 }
-.cart-text3 p:last-child{
-  text-decoration: underline;
+.AvaPost1{
+  width: 87px;
+  height: 47px;
+  float: left;
+}
+.AvaPost2{
+  width: 72px;
+  height: 42px;
+  float: left;
+}
+.AvaPost3{
+  width: 78px;
+  height: 44px;
+  float: left;
+}
+.AllPost p{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: justify;
+color: #000000;
+margin-left: 100px;
+}
+.AllPost{
+  display: block;
+}
+.clients{
+width: 970px;
+height: 16px;
+background: #9B51E0;
+margin-left: 460px;
+margin-top: 10px;
+}
+.client{
+  margin-top: 20px;
+  height: 80px;
+  padding-left: 40px;
+}
+.client:first-child{
+  margin-left: 485px;
+}
+.footer{
+  width: 100%;
+  height: 115px;
+  background: #6D3D99;
+}
+.Copy{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+color: #FFFFFF;
+text-align: center;
+vertical-align: middle;
+}
+.Copy p{
+  padding-top: 49px;
 }
