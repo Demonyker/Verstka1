@@ -50,7 +50,6 @@ width: 100%;
 .super-logo p {
   display: inline;
   white-space: nowrap;
-
 }
 .go {
   position: relative;
@@ -283,6 +282,7 @@ color: #000000;
 }
 
 .clients{
+font-family: Roboto;
 width: 970px;
 height: 16px;
 background: #9B51E0;
