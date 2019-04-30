@@ -1,14 +1,14 @@
-.prog{
-  width: 99%;
+.prog {
+  width: 100%;
   border: 5px solid #9B51E0;
 }
-#header{
+.header {
 width: 100%;
  position: relative;
  margin-top: 30px;
  text-align: center;
 }
-.logo{
+.logo {
   position: relative;
   left: 0px;
   top: -5px;
@@ -19,7 +19,7 @@ width: 100%;
   border: 3px solid #FFC740;
   box-sizing: border-box;
 }
-.super-logo{
+.super-logo {
   position: relative;
   width: 143px;
   height: 48px;
@@ -32,10 +32,13 @@ width: 100%;
   line-height: 28px;
   color: #000000;
 }
-.head-list{
+.super-logo p{
+  background: #FFFFFF;
+}
+.head-list {
   display: inline-block;
 }
-.search{
+.search {
   position: relative;
   width: 201px;
   height: 33px;
@@ -44,12 +47,12 @@ width: 100%;
   background: #FFFFFF;
   border: 1px solid #6D3D99;
 }
-.super-logo p{
+.super-logo p {
   display: inline;
   white-space: nowrap;
 
 }
-.go{
+.go {
   position: relative;
   width: 44px;
   height: 33px;
@@ -57,7 +60,7 @@ width: 100%;
   left: 158px;
   background: #9B51E0;
 }
-.go p{
+.go p {
   padding-top: 8px;
 font-family: Roboto;
 font-style: normal;
@@ -67,49 +70,55 @@ line-height: 16px;
 text-align: center;
 color: #FFFFFF;
 }
-.main-menu{
+.main-menu {
+  font-family: Roboto;
   position: relative;
-  right: 40px;
+  margin-right: 65px;
 }
-.main-menu ul li{
+.menuchoose {
   display: inline-block;
   padding-left: 40px;
 }
-.main-menu ul li:first-child{
-  padding: 0;
+.menuchoose:hover {
   background: #FFC740;
   color: white;
   height: 47px;
-  width: 123px;
   text-align: center;
   vertical-align: middle;
-  margin-bottom: 5px;
+  padding-top: 25px;
+  padding-right: 40px;
+  width: auto;
+  margin-left: 40px;
 }
-.main-menu ul li:first-child p{
-  padding-bottom: 10px;
+.menuchoose:first-child:hover {
+  margin-left: -15px;
 }
-#content{
+
+
+.content {
   position: relative;
   width: 100%;
   height: auto;
   bottom: 50px;
 }
-.banner{
+.banner {
   position: relative;
-  height: 400px;
+  height: 350px;
   width: 980px;
   margin: 0 auto;
   right: 5px;
 }
-.banner::before{
+.banner::before { 
   content: "";
   position: absolute;
   width: 100%; height: 100%;
-  background:  url('img/alps.jpg') no-repeat 5% 85%;
+  background:  url('img/alps.jpg') no-repeat 50% 90%;
   filter: brightness(55%);
 }
 
-.bannerTitle p{
+.bannerTitle {
+  position: relative;
+  width: 500px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -118,9 +127,11 @@ color: #FFFFFF;
   color: #FFC740;
   filter: brightness(100%);
   margin-left: 44px;
-  padding-top: 10px;
+  top: 30px;
 }
 .bannerText{
+  position: relative;
+  width: 450px;
   position: relative;
   font-family: Roboto;
 font-style: normal;
@@ -129,9 +140,11 @@ font-size: 14px;
 line-height: 16px;
 color: #FFFFFF;
 margin-left: 44px;
-margin-top: -50px;
+margin-top: -30px;
 }
 .bannerButton{
+  position: relative;
+  font-family: Roboto;
   position: relative;
   background: #6D3D99;
   width: 125px;
@@ -143,72 +156,61 @@ text-align: center;
 .bannerButton p{
   padding-top: 8px;
 }
-.contblock, .contblock1, .contblock2{
+.contblock {
   position: relative;
   width: 100%;
   height: 190px;
   text-align: center;
+  font-family: Roboto;
 }
 .contblock2{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-family: Roboto;
   height: 280px;
 }
-.block1{
+.block{
   width: 470px;
   display: inline-block;
 }
-.block1:last-child, .block2:last-child, .block3:nth-child(2), .block3:nth-child(3){
+.block:nth-child(2n){
   margin-left: 20px;
 }
-.block3{
+.block2 {
+  vertical-align: top;
   width: 305px;
   display: inline-block;
 }
-.block3{
-  vertical-align: top;
+.block2:nth-child(2) {
+  margin: 0 20px;
 }
 
-.block2{
-  width: 470px;
-  display: inline-block;
-}
-
-.polosa1{
+.polosa1, .polosa2{
   background: #9B51E0;
-  width: 470px;
+  width: inherit;
   height: 16px;
   margin-top: 30px;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #000000;
+}
+.textonpolosa{
+  background: #FFFFFF;
+  margin-left: 16px;
+  padding: 0 6px;
+  width: 130px;
+  white-space: nowrap;
+  font-weight: bold; 
 }
 .polosa2{
 background: #FFC740;
-width: 470px;
-height: 16px;
-margin-top: 30px;
 }
-.polosa3, .polosa4{
-background: #FFC740;
-width: inherit;
-height: 16px;
-margin-top: 30px;
-}
-.polosa4{
-  background: #9B51E0;
-}
-.wordsOnPolosa{
-  font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height */
-background: white;
-color: #000000;
-padding: 5px;
-text-align: left;
-width: auto;
-margin-right: 260px;
-}
-
-
 .ava {
   height: 141px;
   width: 156px;
@@ -218,7 +220,26 @@ margin-right: 260px;
   margin-right: 10px;
   padding: 2px;
 }
-.cart-text1 p{
+.sobaka{
+  background: url('img/sobaka.jpg') no-repeat;
+  background-position: center left;
+  background-size: 112% 112%;
+}
+.steve{
+  background: url('img/steve.jpg') no-repeat;
+  background-position: -40px;
+  background-size: 179% 100%;
+}
+.miw{
+  background: url('img/miw.jpg') no-repeat;
+  background-position: center center;
+  background-size: 130% 110%;
+}
+.tyan{
+  background: url('img/tyan.jpg') no-repeat;
+  background-size: 137% 146%
+}
+.cart-text{
   font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -227,81 +248,41 @@ line-height: 14px;
 text-align: justify;
 color: #000000;
 }
-.cart-text2 p{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-text-align: justify;
-color: #000000;
+.underline {
+ text-decoration: underline;
 }
-.cart-text3 p{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-text-align: justify;
-color: #000000;
-}
-.cart-text3 p{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-text-align: justify;
-color: #000000;
-width: 100%;
-}
-
-.cart-text4 p{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-text-align: justify;
-color: #000000;
-}
-.cart-text4{
-  width: inherit;
-}
-
-.cart-text3 p:last-child, .cart-text4 p:last-child, .cart-text1 p:last-child{
-  text-decoration: underline;
-}
-.AvaPost1{
-  width: 87px;
+.AvaPost1, .AvaPost2, .AvaPost3 {
+  width: 60px;
   height: 47px;
   float: left;
+  background: url('img/car.jpg') no-repeat;
+  background-size: 185% 113%;
+  background-position: -20px -3px;
+  margin-right: 10px;
 }
 .AvaPost2{
-  width: 72px;
-  height: 42px;
-  float: left;
+  background: url('img/phone.jpg') no-repeat;
+  background-size: 181% 110%;
+  background-position: center center;
 }
 .AvaPost3{
-  width: 78px;
-  height: 44px;
-  float: left;
+  background: url('img/news.png') no-repeat;
+  background-size: 206% 100%;
+  background-position: center center;
 }
-.AllPost p{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-text-align: justify;
-color: #000000;
-margin-left: 100px;
-}
+
 .AllPost{
   display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+  color: #000000;
 }
-.clients{
 
+.clients{
 width: 970px;
 height: 16px;
 background: #9B51E0;
@@ -314,7 +295,7 @@ margin: 0 auto;
 }
 
 .footer{
-  width: 99%;
+  width: 100%;
   height: 115px;
   background: #6D3D99;
 }
@@ -328,15 +309,7 @@ line-height: 16px;
 color: #FFFFFF;
 text-align: center;
 vertical-align: middle;
-}
-.Copy p{
-  padding-top: 49px;
-}
-.block3 .wordsOnPolosa{
-  margin-right: 170px;
-}
-.clients .wordsOnPolosa{
-  margin-left: 20px;
+padding-top: 49px;
 }
 .OurClients{
   margin: 0 auto;
